@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="col1">#EEEEEE</color>
+    <color name="col2">#00ADB5</color>
+    <color name="col3">#393E46</color>
+    <color name="col4">#222831</color>
 </resources>
