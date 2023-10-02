@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -26,7 +27,8 @@
         android:fontFamily="@font/roboto_bold"
         android:text="@string/c0ding_c0mrades"
         android:layout_marginTop="30dp"
-        android:textSize="30sp"
+        android:textSize="34sp"
+        android:textColor="?colorPrimaryVariant"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
@@ -36,9 +38,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/roboto_mono_medium_italic"
-        android:text="@string/let_s_learn_together"
+        android:text="@string/let_s_learn_coding_together"
         android:layout_marginTop="5dp"
         android:textSize="14sp"
+        android:textColor="?colorPrimaryVariant"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -49,6 +52,8 @@
         android:layout_height="wrap_content"
         android:text="@string/login"
         android:layout_marginTop="60dp"
+        android:textColor="?colorOnSecondary"
+        android:backgroundTint="?colorSecondaryVariant"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -60,6 +65,8 @@
         android:layout_height="wrap_content"
         android:text="@string/register"
         android:layout_marginTop="5dp"
+        android:textColor="?colorOnSecondary"
+        android:backgroundTint="?colorSecondaryVariant"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"

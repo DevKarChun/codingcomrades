@@ -3,6 +3,9 @@
     <style name="Base.Theme.CodingComrades" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
         <item name="backgroundColor">@color/col4</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorSecondaryVariant">@color/col3</item>
+        <item name="colorOnSecondary">@color/col2</item>
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
     </style>
 </resources>
